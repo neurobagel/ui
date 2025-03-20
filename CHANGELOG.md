@@ -1,3 +1,24 @@
+# v0.1.1 (Thu Mar 20 2025)
+
+:tada: This release contains work from a new contributor! :tada:
+
+Thank you, Alyssa Dai ([@alyssadai](https://github.com/alyssadai)), for all your work!
+
+#### 🚀 Enhancements
+
+- [REF] Remove deprecated ENV variables [#131](https://github.com/neurobagel/ui/pull/131) ([@surchs](https://github.com/surchs))
+
+#### 🐛 Bug Fixes
+
+- [FIX] Fix token definition in fetch-repos.yaml [#220](https://github.com/neurobagel/ui/pull/220) ([@alyssadai](https://github.com/alyssadai))
+
+#### Authors: 2
+
+- Alyssa Dai ([@alyssadai](https://github.com/alyssadai))
+- Sebastian Urchs ([@surchs](https://github.com/surchs))
+
+---
+
 # v0.1.0 (Sat Oct 05 2024)
 
 :tada: This release contains work from new contributors! :tada:
