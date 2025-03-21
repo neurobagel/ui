@@ -19,17 +19,17 @@
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.13.0",
-    "@fontsource/roboto": "^5.1.0",
-    "@mui/icons-material": "^5.16.7",
-    "@mui/material": "^5.16.7",
-    "axios": "^1.8.2",
+    "@emotion/styled": "^11.14.0",
+    "@fontsource/roboto": "^5.2.5",
+    "@mui/icons-material": "^5.17.1",
+    "@mui/material": "^5.17.1",
+    "axios": "^1.8.4",
     "cypress-file-upload": "^5.0.8",
-    "notistack": "^3.0.1",
+    "notistack": "^3.0.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-window": "^1.8.11",
-    "zustand": "^5.0.1"
+    "zustand": "^5.0.3"
   },
   "devDependencies": {
     "@cypress/code-coverage": "^3.13.7",
