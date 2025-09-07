@@ -8980,5 +8980,41 @@
     "tsv_exists": false,
     "json_exists": false,
     "annotated": false
+  },
+  {
+    "name": "ds006601",
+    "tsv_exists": false,
+    "json_exists": false,
+    "annotated": false
+  },
+  {
+    "name": "ds006583",
+    "tsv_exists": false,
+    "json_exists": false,
+    "annotated": false
+  },
+  {
+    "name": "ds006434",
+    "tsv_exists": false,
+    "json_exists": false,
+    "annotated": false
+  },
+  {
+    "name": "ds006630",
+    "tsv_exists": false,
+    "json_exists": false,
+    "annotated": false
+  },
+  {
+    "name": "ds006613",
+    "tsv_exists": false,
+    "json_exists": false,
+    "annotated": false
+  },
+  {
+    "name": "ds006638",
+    "tsv_exists": false,
+    "json_exists": false,
+    "annotated": false
   }
 ]
