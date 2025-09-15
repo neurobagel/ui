@@ -162,7 +162,7 @@ const RepoCard = memo(
                 <Typography variant="subtitle2">
                   {annotated ? (
                     <Button
-                      href={`https://github.com/neurobagel/openneuro-annotations/tree/main/${repoName}.jsonld`}
+                      href={`https://github.com/neurobagel/openneuro-annotations/tree/main/jsonld/${repoName}.jsonld`}
                       target="_blank"
                       sx={{ textTransform: 'none' }}
                       endIcon={<LaunchIcon />}
