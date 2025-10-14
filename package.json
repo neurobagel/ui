@@ -32,15 +32,15 @@
     "zustand": "^5.0.8"
   },
   "devDependencies": {
-    "@cypress/code-coverage": "^3.14.6",
+    "@cypress/code-coverage": "^3.14.7",
     "@istanbuljs/nyc-config-typescript": "^1.0.2",
     "@kesills/eslint-config-airbnb-typescript": "^20.0.0",
     "@testing-library/react": "^16.3.0",
-    "@types/node": "^22.18.8",
+    "@types/node": "^22.18.10",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@types/react-window": "^1.8.8",
-    "@typescript-eslint/eslint-plugin": "^8.45.0",
+    "@typescript-eslint/eslint-plugin": "^8.46.0",
     "@typescript-eslint/parser": "^8.32.1",
     "@vitejs/plugin-react-swc": "^3.11.0",
     "@vitest/coverage-istanbul": "^3.2.4",
