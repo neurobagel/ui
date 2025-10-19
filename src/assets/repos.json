@@ -9244,5 +9244,35 @@
     "tsv_exists": false,
     "json_exists": false,
     "annotated": false
+  },
+  {
+    "name": "ds006777",
+    "tsv_exists": false,
+    "json_exists": false,
+    "annotated": false
+  },
+  {
+    "name": "ds006780",
+    "tsv_exists": false,
+    "json_exists": false,
+    "annotated": false
+  },
+  {
+    "name": "ds006801",
+    "tsv_exists": false,
+    "json_exists": false,
+    "annotated": false
+  },
+  {
+    "name": "ds006803",
+    "tsv_exists": false,
+    "json_exists": false,
+    "annotated": false
+  },
+  {
+    "name": "ds006798",
+    "tsv_exists": false,
+    "json_exists": false,
+    "annotated": false
   }
 ]
