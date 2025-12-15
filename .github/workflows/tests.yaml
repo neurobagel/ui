@@ -34,7 +34,7 @@ jobs:
           component: false
 
       - name: Upload e2e coverage artifact
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: e2eCov
           path: coverage
@@ -58,7 +58,7 @@ jobs:
           component: true
       
       - name: Upload component coverage artifact
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: compCov
           path: coverage
@@ -81,7 +81,7 @@ jobs:
         run: npm run test:unit
 
       - name: Upload unit coverage artifact
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: unitCov
           path: coverage
