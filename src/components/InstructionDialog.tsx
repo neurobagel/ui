@@ -65,9 +65,7 @@ function InstructionDialog({ open, onClose }: { open: boolean; onClose: () => vo
         </DialogContentText>
       </DialogContent>
       <DialogActions>
-        <Button onClick={() => onClose()} autoFocus>
-          Close
-        </Button>
+        <Button onClick={() => onClose()}>Close</Button>
       </DialogActions>
     </Dialog>
   );
