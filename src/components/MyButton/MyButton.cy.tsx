@@ -1,4 +1,4 @@
-import { MyButton } from '~/components/MyButton';
+import { MyButton } from './MyButton';
 
 describe('My Button', () => {
   it('renders', () => {

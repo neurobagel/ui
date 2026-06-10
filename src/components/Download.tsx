@@ -26,7 +26,6 @@ function Download({ onSomeEvent }: { onSomeEvent: (error: string, variant: Varia
             }}
             renderInput={(params) => (
               <TextField
-                // eslint-disable-next-line react/jsx-props-no-spreading
                 {...params}
                 label="Filter by name"
                 variant="outlined"
@@ -47,7 +46,6 @@ function Download({ onSomeEvent }: { onSomeEvent: (error: string, variant: Varia
             }}
             renderInput={(params) => (
               <TextField
-                // eslint-disable-next-line react/jsx-props-no-spreading
                 {...params}
                 label="Filter by status"
                 variant="outlined"
