@@ -1,5 +1,4 @@
 /// <reference types="vitest" />
-/* eslint-disable import/no-extraneous-dependencies */
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react-swc';
 import istanbul from 'vite-plugin-istanbul';

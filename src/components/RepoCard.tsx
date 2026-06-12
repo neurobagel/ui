@@ -8,7 +8,7 @@ import CancelSharpIcon from '@mui/icons-material/CancelSharp';
 import DownloadIcon from '@mui/icons-material/Download';
 import UploadIcon from '@mui/icons-material/Upload';
 import LaunchIcon from '@mui/icons-material/Launch';
-import axios from 'axios';
+import axios, { isAxiosError } from 'axios';
 import { VariantType } from 'notistack';
 import NBDialog from './NBDialog';
 import UploadForm from './UploadForm';
@@ -52,7 +52,7 @@ const RepoCard = memo(
         downloadFile(response.data, file);
       } catch (error) {
         // Check if the error is a 404 from the master branch and then try main branch
-        if (axios.isAxiosError(error) && error.response?.status === 404) {
+        if (isAxiosError(error) && error.response?.status === 404) {
           try {
             url = `${DOWNLOADURL}${repoName}/main/${file}`;
             const response = await axios.get(url, { responseType: 'blob' });
@@ -194,5 +194,7 @@ const RepoCard = memo(
     );
   }
 );
+
+RepoCard.displayName = 'RepoCard';
 
 export default RepoCard;
