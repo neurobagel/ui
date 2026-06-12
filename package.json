@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "lint:check": "eslint --report-unused-disable-directives --max-warnings=0 .",
-    "lint:fix": "eslint --fix .",
+    "lint:check": "eslint **/*.{ts,tsx} --report-unused-disable-directives --max-warnings=0",
+    "lint:fix": "eslint --fix **/*.{ts,tsx}",
     "preview": "vite preview",
     "format:fix": "prettier --write .",
     "format:check": "prettier --check .",
